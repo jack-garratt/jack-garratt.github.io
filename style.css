@@ -1,6 +1,67 @@
-body{
+body {
+    justify-content: center;
     font-family: Arial, sans-serif;
+    color: #F5F5F5;
     margin: 0;
     padding: 0;
+    background-color: #121212;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.section-title {
     font-size: 32px;
+    padding:0px;
+    margin:0px;
+}
+
+.sub_section-title {
+    font-size: 24px;
+    padding:5px;
+    margin:0px;
+}
+
+.name {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.personal_description {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    color: #F5F5F5;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #3a3a3a;
+    border-radius: 8px;
+}
+
+
+.project-description {
+    display: none;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
